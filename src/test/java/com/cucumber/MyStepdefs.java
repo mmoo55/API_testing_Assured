@@ -1,29 +1,12 @@
 package com.cucumber;
 
 import clientAPI.FactoryRequest;
-import clientAPI.RequestInformation;
-import clientAPI.ResponseInformation;
-//import com.google.gson.*;
-//import cucumber.api.java.en.And;
-//import cucumber.api.java.en.Given;
-//import cucumber.api.java.en.Then;
-//import cucumber.api.java.en.When;
-//import helpers.JsonHelper;
-import io.cucumber.core.backend.Container;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import org.json.JSONException;
-//import org.junit.Assert;
 import org.junit.jupiter.api.Assertions;
-
-import java.util.HashMap;
-import java.util.Map;
-
 import static org.hamcrest.Matchers.equalTo;
-
-//import static junit.framework.TestCase.assertTrue;
 
 public class MyStepdefs {
 

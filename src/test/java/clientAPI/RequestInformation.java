@@ -19,10 +19,6 @@ public class RequestInformation {
         this.password = password;
     }
 
-    /*public void addHeaders(String attribute, String value) {
-        this.headers.add(attribute, value);
-    }*/
-
     public String getUrl() {
         return url;
     }
