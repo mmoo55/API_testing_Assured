@@ -64,4 +64,9 @@ public class MyStepdefs {
     }
 
 
+    @And("I will expect the {string} is equal to my email")
+    public void iWillExpectTheUserEmailIsEqualToMyEmail(String key) {
+        world.response.then()
+                .body(key,equalTo(world.email));
+    }
 }

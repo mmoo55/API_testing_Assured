@@ -1,10 +1,3 @@
-Feature: User
-
-  Scenario I want to get the token
-    Given I had authentication to todo.ly
-    When I send 'GET' request 'authentication/token.json'
-    Then I will expect the response code 200
-
 Feature: Item
 
   Scenario: I want to create an item
